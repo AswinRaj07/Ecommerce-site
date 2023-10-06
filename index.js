@@ -1,0 +1,12 @@
+const route=require('./routes')
+const express=require('express')
+const bodyparser=require('body-parser')
+const cors=require('cors')
+const app=express()
+const dpconnection=require('./dbconnection')
+app.use(express.static(`${__dirname}/upload`));
+app.use(bodyparser.urlencoded({extended:false}))
+app.use(bodyparser.json())
+app.use(cors())
+app.use('/',route)
+app.listen(3000)
