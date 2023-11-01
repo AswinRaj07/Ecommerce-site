@@ -1,0 +1,32 @@
+.formsizediv{
+    width: 30%;
+    height: 34rem;
+    box-shadow: 1px 1px 3px 3px white; 
+    /* background-color: cadetblue; */
+    position: relative;
+    top: 1.5rem;
+    left: 30rem;
+}
+.maindiv{
+   height: 45rem;
+}
+
+
+.inputsize{
+    width:23rem;
+    position: relative;
+    top: 3rem;
+    left: 3rem;
+}
+.continuebutton{
+    width: 23rem;
+    height: 2rem;
+    position: relative;
+    top: 4rem;
+    left: 3rem;
+}
+.registerdiv{
+    position: relative;
+    top: 2rem;
+    left: 3rem;
+}

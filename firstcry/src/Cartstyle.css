@@ -1,0 +1,47 @@
+.placeorder {
+  width: 20rem;
+  height: 3rem;
+  border: none;
+  border-radius: 10px;
+  background-color: orangered;
+  position: relative;
+  right: 1rem;
+}
+.ordersummery{
+ 
+  width: 33rem;
+  height: 25rem;
+  position:relative;
+  left: 60rem;
+  bottom: 30rem;
+  
+}
+
+.cartstyle {
+  position: relative;
+  left: 2rem;
+  bottom: 2rem;
+  top: 0.5rem;
+}
+.cartsize {
+  height: 20rem;
+}
+
+.removebutton {
+  background-color: #ff6666;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  position: relative;
+  top: 5rem;
+}
+.removebutton i{
+    margin-right: 8px;
+}
+.removebutton:hover{
+    background-color: #ff3333; 
+}
+

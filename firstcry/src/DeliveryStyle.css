@@ -1,0 +1,27 @@
+.adressform{
+
+    height: 100;
+    width: 30rem;
+    border-radius: 10px;
+    position: relative;
+    left: 35rem;
+    top:1rem;
+    
+}
+.cancelicon{
+    position: relative;
+    left: 10rem;
+}
+.savebtn{
+    width: 30rem;
+    position: relative;
+    top: 1rem;
+   
+}
+.secondarybtn{
+    width: 14rem;
+    position: relative;
+    top: 1rem;
+    
+   
+}

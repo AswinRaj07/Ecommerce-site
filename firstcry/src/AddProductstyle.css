@@ -1,0 +1,26 @@
+.addform {
+  height: 35rem;
+  width: 30rem;
+  border-radius: 10px;
+  position: relative;
+  top: 3rem;
+  left: 30rem;
+}
+.firstinput {
+  position: relative;
+  top: 1rem;
+}
+.seperateinput {
+  position: relative;
+  top: 2rem;
+}
+.category {
+  position: relative;
+  top: 3rem;
+}
+.addbutton {
+  width: 30rem;
+
+  position: relative;
+  top: 3.5rem;
+}

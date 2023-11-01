@@ -1,0 +1,37 @@
+.loginregisterdiv{
+    position: relative;
+    top: 2rem;
+    left: 3rem;
+}
+.emaildiv{
+    width: 30%;
+    height: 30rem;
+    box-shadow: 1px 1px 2px 2px white;
+    position: relative;
+    top: 2rem;
+    left: 30rem;
+}
+.inputsposition{
+    width:23rem;
+    color: black;
+    position: relative;
+    top: 4rem;
+    left: 3rem;
+}
+.loginbutton{
+    width: 23rem;
+    height: 3rem;
+    position: relative;
+    top: 6rem;
+    left: 3rem;
+}
+.registerlinkdiv{
+    text-decoration: none;
+    position: relative;
+    top: 9rem;
+    left: 7rem;
+}
+.tag{
+    text-decoration: none;
+    color:blue; 
+}

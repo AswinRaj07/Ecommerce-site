@@ -1,0 +1,136 @@
+.carddiv{
+    padding: 20px;
+    position: relative;
+    top:2rem;
+    
+}
+.carouseldiv{
+    width: 80%;
+    /* margin-top: 0%; */
+    position: relative; 
+    left: 10rem;
+    top: 0%;
+    /* bottom: 5rem; */
+}
+/* .add{
+    border: none;
+    border-radius: 7px;
+    box-shadow: 1px 2px 2px black;
+    background-color: burlywood;
+    height: 2.5rem;
+    width: 10rem;
+    cursor: pointer;
+    position: relative;
+    right: 1rem;
+    bottom: 1rem;
+    left: 0.6rem;
+    /* right: 1rem; 
+} */
+
+/* .buy{
+    border: none;
+    border-radius: 7px;
+    box-shadow: 1px 2px 2px black;
+    background-color:orangered;
+    color: white;
+    height: 2.5rem;
+    width: 6rem;
+    position: relative;
+    left: 1.5rem;
+} */
+.buy{
+    position: relative;
+    left: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+    height: 45px;
+    padding: 10px 20px;
+    background: white;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid;
+    color: #334b79;
+    z-index: 1;
+    transition: 0.8s all ease; 
+}
+.buy:hover{
+    color: white;
+    cursor: pointer;
+    border: 0px; 
+}
+.buy:active{
+    transform: scale(0.85);
+}
+.buy:hover:before{
+    top: 0;
+    left: 0;
+    border: 0px;
+    transform: rotate(180deg);
+}
+.buy:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    top: 100%;
+    background: #d5410f;
+    transition: all 0.6s ease;
+    z-index: -1;
+}
+.buy:hover:after{
+    top: 0;
+    left: 1%;
+    border: 0px;
+    transform: rotate(180deg);
+}
+.add{
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    height: 45px;
+    padding: 10px 20px;
+    background: white;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid;
+    color: #334b79;
+    z-index: 1;
+    transition: 0.8s all ease;
+}
+.add:hover{
+       color: white;
+       cursor: pointer;
+       border: 0px;
+}
+.add:active{
+    transform: scale(0.85);
+}
+
+.add:hover:before{
+    top: 0;
+    left: 0;
+    border: 0px;
+    transform: rotate(180deg);
+}
+.add:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    top: 100%;
+    background: #54B435;
+    transition: all 0.6s ease;
+    z-index: -1;
+}
+.add:hover::after{
+    top: 0;
+    left: 1%;
+    border: 0px;
+    transform: rotate(180deg);
+}

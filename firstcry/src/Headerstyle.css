@@ -1,0 +1,25 @@
+.carticon{
+    
+    border-radius: 8px;
+    color:white;
+    font-size: large;
+    text-decoration: none;
+    position: relative;
+    top: 0.5rem;
+    left: 40rem;
+}
+.logoutbtn{
+    position: relative;
+    /* left: 2rem; */
+    font-size: 14px;
+    font-weight: bold;
+    height: 40px;
+    padding: 10px 20px;
+    /* background: white; */
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid;
+    color: #334b79;
+    z-index: 1;
+    transition: 0.8s all ease; 
+}

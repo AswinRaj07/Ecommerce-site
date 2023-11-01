@@ -1,0 +1,28 @@
+.maindiv9{
+    height: 40rem;
+    background-color: rgb(165, 212, 196);
+}
+.headingdiv{
+    text-align: center;
+    position: relative;
+    top: 2rem;
+    
+}
+.footerlist1{
+    display: inherit;
+    position: relative;
+    top: 8rem;
+    left: 10rem; 
+}
+.footerlist2{
+   display: inherit;
+   position: relative;
+   bottom: 14.5rem; 
+   left: 35rem;
+}
+.footerlist3{
+   display: inherit;
+   position: relative;
+   bottom: 36.5rem; 
+   left: 65rem;
+}
